@@ -1,14 +1,123 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  padding: 0px;
+  margin: 0px;
 }
+.App {
+  background-color: #e4e7e7;
+}
+.header {
+  background-image: url("https://www.mayawebsolutions.com/img/slides/sliders1.jpg");
+  background-repeat: no-repeat;
+  height: 85vh;
+  opacity: 0.9;
+}
+.navigation {
+  padding-top: 20px;
+  width: 50%;
+  float: right;
+  
+}
+.navigation ul {
+  list-style: none;
+}
+.navigation ul li{
+  cursor: pointer;
+  display: inline;
+  padding-left: 25px;
+  color: #fff;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+}
+h1 {
+  padding-top:35vh;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  color: #fff;
+}
+h2 {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+.about {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+.profile-img {
+  padding: 20px;
+}
+.profile-img img {
+  width: 80%;
+}
+.description {
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  margin-right: 5px;
+}
+.description:hover {
+  background-color: #383231;
+  color:white;
+  border-color: white;
+}
+.description p {
+  line-height: 1.4;
+  padding-top: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
+.tech {
+  padding: 30px;
+  float: right;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+.tech:hover {
+  background-color: #383231;
+  color: white;
+  border-color: white;
+}
+.tech p {
+  line-height: 1.4;
+  padding-top: 10px;
+  text-align: justify;
+  font-size: 18px;
+}
+.contact {
+  background-image: url("https://typeadesign.com/wp-content/uploads/2016/01/contact-us-background.jpg");
+  height: 85vh;
+  opacity: 0.9;;
+}
+.footer {
+  background-color: #383231;
+  height: 10vh;
+}
+.footer p {
+  width: 70%;
+  float: left;
+  color:#fff;
+  padding-top:7vh;
+}
+.footer ul {
+  width:30%;
+  float: right;
+  list-style: none;
+}
+.footer ul li {
+  display: inline;
+  padding-right: 30px;
+
+}
+.footer ul li i {
+  padding-top: 20px;
+  font-size: 30px;
+  color: #fff;
 }
